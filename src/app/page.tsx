@@ -171,23 +171,6 @@ export default function HomePage() {
             </Paper>
           </Box>
         )}
-
-        {/* Info Section */}
-        <Paper elevation={1} sx={{ p: 3, backgroundColor: "#f5f5f5" }}>
-          <Typography variant="h6" gutterBottom>
-            About This Tool
-          </Typography>
-          <Typography variant="body2" paragraph>
-            This tool calculates trucking routes with mandatory rest stops
-            according to Federal Motor Carrier Safety Administration (FMCSA)
-            Hours of Service (HOS) regulations. It provides ELD-compliant
-            scheduling to help drivers maintain legal compliance.
-          </Typography>
-          <Typography variant="body2">
-            Features include: Route optimization, Rest stop planning, Fuel stop
-            recommendations, and ELD compliance tracking.
-          </Typography>
-        </Paper>
       </Box>
     </Layout>
   );
