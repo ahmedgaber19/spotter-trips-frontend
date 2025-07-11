@@ -16,9 +16,7 @@ const nextConfig = {
   transpilePackages: ["@mui/material", "@mui/system", "@mui/icons-material"],
 
   // Vercel-specific optimizations
-  experimental: {
-    outputStandalone: true,
-  },
+  output: 'standalone',
 
   // Optimize for production
   compress: true,

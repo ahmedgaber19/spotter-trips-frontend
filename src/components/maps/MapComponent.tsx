@@ -12,7 +12,7 @@ import {
 } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
-import { LocationSelection, MapMarker, LocationSelection } from "../../services/types";
+import { MapMarker, LocationSelection } from "../../services/types";
 import { MAP_CONFIG } from "../../utils/constants";
 
 // Fix for default markers in react-leaflet
