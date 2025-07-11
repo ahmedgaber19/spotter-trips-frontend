@@ -2,7 +2,8 @@
 const nextConfig = {
   env: {
     NEXT_PUBLIC_BACKEND_URL:
-      process.env.NEXT_PUBLIC_BACKEND_URL || "https://spotter-trips-backend.vercel.app",
+      process.env.NEXT_PUBLIC_BACKEND_URL ||
+      "https://spotter-trips-backend.vercel.app",
   },
   // Allow external images and optimize bundle
   images: {
@@ -16,7 +17,7 @@ const nextConfig = {
   transpilePackages: ["@mui/material", "@mui/system", "@mui/icons-material"],
 
   // Vercel-specific optimizations
-  output: 'standalone',
+  output: "standalone",
 
   // Optimize for production
   compress: true,
@@ -28,7 +29,8 @@ const nextConfig = {
       {
         source: "/api/:path*",
         destination: `${
-          process.env.NEXT_PUBLIC_BACKEND_URL || "https://spotter-trips-backend.vercel.app"
+          process.env.NEXT_PUBLIC_BACKEND_URL ||
+          "https://spotter-trips-backend.vercel.app"
         }/api/:path*`,
       },
     ];
