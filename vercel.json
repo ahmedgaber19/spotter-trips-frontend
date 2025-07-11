@@ -1,7 +1,7 @@
 {
   "framework": "nextjs",
   "env": {
-    "NEXT_PUBLIC_BACKEND_URL": "https://spotter-hos-backend.vercel.app"
+    "NEXT_PUBLIC_BACKEND_URL": "https://spotter-trips-backend.vercel.app"
   },
   "headers": [
     {

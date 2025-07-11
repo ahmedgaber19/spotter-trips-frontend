@@ -10,7 +10,7 @@ import {
 const apiClient = axios.create({
   baseURL:
     process.env.NEXT_PUBLIC_BACKEND_URL ||
-    "https://spotter-trips-backend.vercel.app/",
+    "https://spotter-trips-backend.vercel.app",
   timeout: 30000,
   headers: {
     "Content-Type": "application/json",

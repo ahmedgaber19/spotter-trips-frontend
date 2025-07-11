@@ -2,7 +2,7 @@
 const nextConfig = {
   env: {
     NEXT_PUBLIC_BACKEND_URL:
-      process.env.NEXT_PUBLIC_BACKEND_URL || "https://spotter-hos-backend.vercel.app",
+      process.env.NEXT_PUBLIC_BACKEND_URL || "https://spotter-trips-backend.vercel.app",
   },
   // Allow external images and optimize bundle
   images: {
@@ -28,7 +28,7 @@ const nextConfig = {
       {
         source: "/api/:path*",
         destination: `${
-          process.env.NEXT_PUBLIC_BACKEND_URL || "https://spotter-hos-backend.vercel.app"
+          process.env.NEXT_PUBLIC_BACKEND_URL || "https://spotter-trips-backend.vercel.app"
         }/api/:path*`,
       },
     ];
